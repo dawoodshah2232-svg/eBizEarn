@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const rawBaseUrl = import.meta.env.VITE_API_URL || 'https://projected-puerto-six-explanation.trycloudflare.com';
+const rawBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 const API_BASE_URL = rawBaseUrl.endsWith('/api/v1') ? rawBaseUrl : `${rawBaseUrl.replace(/\/$/, '')}/api/v1`;
 
 export const api = axios.create({

@@ -32,26 +32,28 @@ Route::prefix('v1')->group(function () {
         Route::post('/auth/logout', [AuthController::class, 'logout']);
         Route::get('/auth/me', [AuthController::class, 'me']);
 
-        // Contributor Endpoints
-        Route::prefix('contributor')->group(function () {
+        // Contributor Endpoints (server-side role enforced)
+        Route::prefix('contributor')->middleware('role:contributor')->group(function () {
             Route::get('/dashboard', [TaskController::class, 'contributorDashboard']);
             Route::get('/my-tasks', [TaskController::class, 'myTasks']);
             Route::get('/referrals', [WalletController::class, 'referrals']);
         });
 
-        // Contributor Task Operations
-        Route::post('/tasks/{id}/start', [TaskController::class, 'start']);
-        Route::post('/tasks/{id}/submit', [TaskController::class, 'submit']);
+        // Contributor Task Operations (server-side role enforced)
+        Route::middleware('role:contributor')->group(function () {
+            Route::post('/tasks/{id}/start', [TaskController::class, 'start']);
+            Route::post('/tasks/{id}/submit', [TaskController::class, 'submit']);
+        });
 
-        // Contributor Wallet Operations
-        Route::prefix('wallet')->group(function () {
+        // Contributor Wallet Operations (server-side role enforced)
+        Route::prefix('wallet')->middleware('role:contributor')->group(function () {
             Route::get('/', [WalletController::class, 'index']);
             Route::get('/transactions', [WalletController::class, 'transactions']);
             Route::post('/withdraw', [WalletController::class, 'withdraw']);
         });
 
-        // Business Endpoints
-        Route::prefix('business')->group(function () {
+        // Business Endpoints (server-side role enforced)
+        Route::prefix('business')->middleware('role:business')->group(function () {
             Route::get('/dashboard', [BusinessCampaignController::class, 'dashboard']);
             Route::get('/campaigns', [BusinessCampaignController::class, 'index']);
             Route::post('/campaigns', [BusinessCampaignController::class, 'store']);
@@ -60,8 +62,8 @@ Route::prefix('v1')->group(function () {
             Route::get('/submissions', [BusinessCampaignController::class, 'submissions']);
         });
 
-        // Admin & Super Admin Endpoints
-        Route::prefix('admin')->group(function () {
+        // Admin Endpoints (server-side role enforced: admin + superadmin)
+        Route::prefix('admin')->middleware('role:admin')->group(function () {
             Route::get('/dashboard', [AdminVerificationController::class, 'dashboard']);
             Route::get('/verification-queue', [AdminVerificationController::class, 'verificationQueue']);
             Route::get('/submissions/{id}', [AdminVerificationController::class, 'submissionDetail']);
@@ -70,15 +72,17 @@ Route::prefix('v1')->group(function () {
             Route::get('/payouts', [AdminVerificationController::class, 'payouts']);
             Route::post('/payouts/{id}/process', [AdminVerificationController::class, 'processPayout']);
 
-            // Super Admin Controls
-            Route::get('/feature-flags', [AdminSystemController::class, 'featureFlags']);
-            Route::patch('/feature-flags/{key}', [AdminSystemController::class, 'updateFeatureFlag']);
-            Route::get('/system-settings', [AdminSystemController::class, 'systemSettings']);
-            Route::patch('/system-settings', [AdminSystemController::class, 'updateSystemSetting']);
-            Route::get('/audit-logs', [AdminSystemController::class, 'auditLogs']);
-            Route::get('/users', [AdminSystemController::class, 'users']);
-            Route::patch('/users/{id}/status', [AdminSystemController::class, 'updateUserStatus']);
-            Route::get('/health', [AdminSystemController::class, 'health']);
+            // Super Admin Controls (server-side role enforced: superadmin only)
+            Route::middleware('role:superadmin')->group(function () {
+                Route::get('/feature-flags', [AdminSystemController::class, 'featureFlags']);
+                Route::patch('/feature-flags/{key}', [AdminSystemController::class, 'updateFeatureFlag']);
+                Route::get('/system-settings', [AdminSystemController::class, 'systemSettings']);
+                Route::patch('/system-settings', [AdminSystemController::class, 'updateSystemSetting']);
+                Route::get('/audit-logs', [AdminSystemController::class, 'auditLogs']);
+                Route::get('/users', [AdminSystemController::class, 'users']);
+                Route::patch('/users/{id}/status', [AdminSystemController::class, 'updateUserStatus']);
+                Route::get('/health', [AdminSystemController::class, 'health']);
+            });
         });
     });
 });

@@ -153,8 +153,8 @@ export const App: React.FC = () => {
         {/* Global Floating Live Chat Support Desk (Bottom-Right) */}
         <LiveChatWidget />
 
-        {/* Global Floating Demo Persona Switcher (Bottom-Left) */}
-        <RoleSwitcher />
+        {/* Global Floating Demo Persona Switcher (Bottom-Left) — dev only, never in production */}
+        {import.meta.env.DEV && <RoleSwitcher />}
       </BrowserRouter>
       </PlatformDataProvider>
     </AuthProvider>
