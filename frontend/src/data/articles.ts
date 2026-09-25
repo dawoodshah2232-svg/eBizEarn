@@ -136,6 +136,205 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: 'how-escrow-protects-online-task-work',
+    title: 'How Escrow Protects Both Sides of Online Task Work',
+    dek: 'You do the work, they hold the money, nobody gets burned. Here is how escrow actually works on task platforms — and what to check before you accept a job.',
+    metaDescription:
+      'How escrow works on online task platforms: funds are held before work starts and released on approval. What earners and buyers should verify before accepting a task.',
+    category: 'Guides',
+    author: 'eBizEarn Insights',
+    authorRole: 'Editorial Team',
+    publishedAt: '2026-09-25',
+    readMinutes: 6,
+    coverImage: '/images/blog/escrow-protection-guide.webp',
+    coverAlt: 'Two hands shaking over a signed contract with a golden shield symbolizing escrow protection',
+    blocks: [
+      {
+        type: 'lead',
+        text: 'The oldest problem in freelance work is also the simplest: the worker is afraid of not getting paid, and the buyer is afraid of paying for nothing. Escrow solves it with a third step between the two — the money is locked in before the work starts, and released only when the agreed result is delivered and approved.',
+      },
+      {
+        type: 'paragraph',
+        text: 'On a well-designed task platform, the flow looks like this. A buyer posts a task and funds it — the amount moves out of their balance into escrow, where neither party can touch it. The earner sees that the money is secured and starts work with confidence. When the work is submitted, the buyer reviews it against the task requirements. Approve, and the funds release to the earner. Dispute, and the platform reviews the evidence from both sides.',
+      },
+      { type: 'heading', text: 'Why funded-before-work matters' },
+      {
+        type: 'paragraph',
+        text: 'The critical detail is timing. Escrow only protects you if the funds are locked before you lift a finger. A task that asks you to start work on a promise — "pay you after, trust me" — has no escrow at all, whatever the platform claims. Before accepting any task, confirm the funded status in the task details. If the money is not visibly secured, treat the task as unprotected.',
+      },
+      {
+        type: 'paragraph',
+        text: 'For buyers, the mirror rule applies: never pay outside the platform to "save fees." Off-platform payment removes every protection escrow gives you — no verified delivery, no dispute process, no record. The fee is the price of the guarantee.',
+      },
+      { type: 'heading', text: 'What happens in a dispute' },
+      {
+        type: 'paragraph',
+        text: 'Disputes are where escrow earns its keep. When buyer and earner disagree, the platform examines the task brief, the submitted work, and the message history. This is why documentation matters on both sides: buyers should write precise requirements with examples of acceptable work, and earners should keep their submissions and communications inside the platform where they are timestamped.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Read the task brief twice before starting — most disputes come from misunderstood requirements, not bad faith.',
+          'Submit exactly what was asked, in the format asked. Extras do not compensate for missing requirements.',
+          'Keep all communication on the platform so there is a record if anything is disputed.',
+          'Never start work on a task that is not visibly funded in escrow.',
+          'If a buyer asks you to communicate or get paid off-platform, decline — it voids your protection.',
+        ],
+      },
+      { type: 'heading', text: 'Escrow is a tool, not a guarantee' },
+      {
+        type: 'paragraph',
+        text: 'An honest note to close with: escrow dramatically reduces risk, but it cannot eliminate it. Release windows, review periods, and dispute outcomes all depend on the platform operating fairly — which is why choosing a reputable platform matters as much as understanding the mechanism. Escrow protects honest people from dishonest situations. It works best when both sides act in good faith and document everything.',
+      },
+      {
+        type: 'quote',
+        text: 'The money moves first, the work moves second, and trust is what fills the gap in between.',
+      },
+    ],
+    sources: [
+      {
+        label: 'U.S. Federal Trade Commission: tips for avoiding job scams',
+        url: 'https://consumer.ftc.gov/articles/job-scams',
+      },
+    ],
+  },
+  {
+    slug: 'spotting-scams-online-earning-offers',
+    title: 'Spotting Scams: Red Flags in Online Earning Offers',
+    dek: 'Real earning opportunities never ask you to pay to start, and never rush you. The red flags that separate legitimate task platforms from scams — and what to do when you spot one.',
+    metaDescription:
+      'How to spot scams in online earning offers: upfront fees, off-platform payments, guaranteed income claims, and pressure tactics. Red flags and what to do about them.',
+    category: 'Safety',
+    author: 'eBizEarn Insights',
+    authorRole: 'Editorial Team',
+    publishedAt: '2026-09-25',
+    readMinutes: 7,
+    coverImage: '/images/blog/spotting-earning-scams.webp',
+    coverAlt: 'A magnifying glass over a laptop showing a suspicious job offer with warning signs',
+    blocks: [
+      {
+        type: 'lead',
+        text: 'Every legitimate way to earn online has an illegitimate twin designed to look exactly like it. The scams are not always obvious — the best ones borrow the language, design, and structure of real platforms. What gives them away is not how they look, but how they behave. Learn the behaviors, and you can spot a scam in under a minute.',
+      },
+      { type: 'heading', text: 'Red flag 1: you have to pay to start earning' },
+      {
+        type: 'paragraph',
+        text: 'This is the single most reliable signal. Legitimate platforms earn money from completed work — from buyers, from commissions on transactions, from subscriptions for premium features. They do not need your "activation fee," "training deposit," or "starter kit" payment. Any offer that requires you to pay before you can earn is, at best, a terrible deal and, at worst, an outright scam. Real jobs pay you; they do not charge you for the privilege of working.',
+      },
+      { type: 'heading', text: 'Red flag 2: guaranteed income claims' },
+      {
+        type: 'paragraph',
+        text: '"Earn $500 a day from your phone, guaranteed." Real earning depends on your skills, effort, task availability, and market demand — no honest platform can guarantee your income. Guarantees are marketing for scams. Treat any specific earnings promise, especially a large round number with no conditions attached, as a warning sign.',
+      },
+      { type: 'heading', text: 'Red flag 3: pressure to move off-platform' },
+      {
+        type: 'paragraph',
+        text: 'Scammers want you off the platform because platforms have records, escrow, and dispute processes. "Let\u2019s continue on WhatsApp/Telegram" early in a conversation — especially combined with payment talk — is a classic maneuver. Legitimate buyers and platforms have no reason to dodge the system that protects you.',
+      },
+      { type: 'heading', text: 'Red flag 4: urgency and secrecy' },
+      {
+        type: 'paragraph',
+        text: '"Only 3 spots left, decide in the next hour." "Don\u2019t tell anyone about this opportunity." Real work does not expire in 60 minutes, and real employers do not need your silence. Urgency is a tool to stop you thinking; secrecy is a tool to stop others warning you.',
+      },
+      { type: 'heading', text: 'Red flag 5: vague work, specific pay' },
+      {
+        type: 'paragraph',
+        text: 'Honest task descriptions are specific about the work and realistic about the pay. Scams invert this: the work is described as "simple tasks anyone can do" while the pay is suspiciously precise and high. If you cannot tell exactly what you would be doing for the money, walk away.',
+      },
+      { type: 'heading', text: 'What to do when you spot one' },
+      {
+        type: 'list',
+        items: [
+          'Stop engaging immediately — do not send money, documents, or personal information.',
+          'Report the account or listing on the platform where you found it.',
+          'If you shared financial details, contact your bank; if you shared ID documents, watch for identity theft and consider a fraud alert.',
+          'Warn others: a quick post in a community forum can save someone else.',
+          'Remember the experience without shame — these schemes are professionally designed to deceive. Spotting the next one is the win.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'The underlying principle is simple: legitimate earning is work. It requires effort, has variable rewards, operates in the open, and never asks you to pay for access. Anything that inverts that formula — money first, effort vague, pressure high — deserves your suspicion, not your trust.',
+      },
+    ],
+    sources: [
+      {
+        label: 'U.S. Federal Trade Commission: job scams and how to avoid them',
+        url: 'https://consumer.ftc.gov/articles/job-scams',
+      },
+      {
+        label: 'UK Action Fraud: reporting fraud and cyber crime',
+        url: 'https://www.actionfraud.police.uk/',
+      },
+    ],
+  },
+  {
+    slug: 'building-reputation-better-task-work',
+    title: 'Building a Reputation That Gets You Picked for Better Tasks',
+    dek: 'On task platforms, your profile is your CV and your rating is your interview. How consistent, quality work compounds into access to higher-value tasks.',
+    metaDescription:
+      'How to build a strong reputation on task platforms: complete your profile, deliver consistently, communicate well, and let ratings compound into better task access.',
+    category: 'Guides',
+    author: 'eBizEarn Insights',
+    authorRole: 'Editorial Team',
+    publishedAt: '2026-09-25',
+    readMinutes: 6,
+    coverImage: '/images/blog/building-task-reputation.webp',
+    coverAlt: 'A freelancer profile card with five gold stars and a rising chart representing growing reputation',
+    blocks: [
+      {
+        type: 'lead',
+        text: 'On a task platform, nobody interviews you. Your profile, your completion history, and your ratings do the talking — to buyers choosing who gets the work, and to the platform deciding who sees the best tasks first. Reputation is not a vanity metric here. It is the mechanism that sorts who gets access to what.',
+      },
+      { type: 'heading', text: 'Start with a complete, honest profile' },
+      {
+        type: 'paragraph',
+        text: 'An empty profile is a risk signal. Fill in your skills truthfully, add a clear photo or avatar, and write a short description of what you do well. Do not claim skills you cannot demonstrate — the first task that tests them will expose the gap, and the resulting bad rating costs more than the honesty would have. Specificity beats breadth: "accurate data entry and spreadsheet cleanup" wins more trust than "I can do anything."',
+      },
+      { type: 'heading', text: 'Take smaller tasks seriously at first' },
+      {
+        type: 'paragraph',
+        text: 'Everyone starts with zero history, which means your first ten tasks matter disproportionately. They are how you earn your first ratings, and ratings are what unlock everything else. Choose initial tasks you can complete excellently rather than impressively — reliability first, ambition second. A streak of on-time, correct completions is the fastest reputation builder there is.',
+      },
+      { type: 'heading', text: 'Communicate like a professional' },
+      {
+        type: 'paragraph',
+        text: 'Most task disputes are communication failures wearing a quality costume. Confirm you understand the brief before starting. If something is ambiguous, ask — buyers would far rather answer a question than reject a submission. If you will be late, say so early. Professional communication turns an average delivery into a five-star experience, because buyers rate the whole interaction, not just the file you submit.',
+      },
+      { type: 'heading', text: 'Treat feedback as inventory' },
+      {
+        type: 'paragraph',
+        text: 'Every rating and comment is data. A 4-star rating with a note about formatting tells you exactly what to fix. Thank buyers for feedback, adjust, and let the improvement show in your next submissions. Earners who visibly improve get something better than ratings — they get repeat buyers, and repeat buyers are the most valuable asset on any platform.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Complete your profile fully and honestly before applying to tasks.',
+          'Start with tasks you can do excellently to build an early rating streak.',
+          'Confirm requirements in writing before starting ambiguous tasks.',
+          'Deliver on time, every time — reliability compounds faster than brilliance.',
+          'Ask satisfied buyers for ratings; most will happily leave one if asked politely.',
+          'Never dispute a fair rating — fix the underlying issue instead.',
+        ],
+      },
+      { type: 'heading', text: 'The compound effect' },
+      {
+        type: 'paragraph',
+        text: 'Reputation works like interest. Each good rating makes the next task slightly easier to win; each repeat buyer reduces the time you spend hunting for work; each month of consistent delivery raises the ceiling of what you can charge. There is no shortcut to this — which is exactly why it is valuable. The earners getting the best tasks are usually not the most talented. They are the most reliably good.',
+      },
+      {
+        type: 'quote',
+        text: 'On platforms, trust is the currency and consistency is how you mint it.',
+      },
+    ],
+    sources: [
+      {
+        label: 'U.S. Federal Trade Commission: job scams and safe earning',
+        url: 'https://consumer.ftc.gov/articles/job-scams',
+      },
+    ],
+  },
 ];
 
 export const getArticle = (slug: string): Article | undefined =>
