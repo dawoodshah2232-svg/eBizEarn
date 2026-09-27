@@ -445,6 +445,127 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: 'fake-review-crackdown-trust-2026',
+    title: 'The Fake-Review Crackdown: Why Honest Feedback Became the Internet’s Most Valuable Currency',
+    dek: 'In February 2026, Amazon sued a fake-review pipeline in Seattle while the FTC’s fake-review ban carries fines of $51,744 per violation. The counterfeit-reputation economy is being dismantled — and honest, verified earners are the ones who gain.',
+    metaDescription:
+      'Amazon’s 2026 lawsuits and the FTC’s fake-review ban are crushing the counterfeit-reputation industry. What the crackdown means for earners on task and review platforms — and which offers to never touch.',
+    category: 'Trust & Safety',
+    author: 'eBizEarn Insights',
+    authorRole: 'Editorial Team',
+    publishedAt: '2026-09-27',
+    readMinutes: 6,
+    coverImage: '/images/blog/fake-review-crackdown-trust.webp',
+    coverAlt: 'A brass magnifying glass over a smartphone showing five gold stars dissolving into pixels, like fake ratings being detected and removed',
+    blocks: [
+      {
+        type: 'lead',
+        text: 'In February 2026, Amazon walked into a Seattle courtroom and sued a man in Bangladesh. The charge: running a pipeline of fake reviews — bogus “verified purchase” ratings, inflated “helpful” vote bundles, fabricated seller feedback — marketed through websites called BuyAmzReviewsVotes.com and SellersSoft.com. It was not a quiet settlement. It was the latest strike in a war the biggest platforms on earth have decided they intend to win. And if you earn money doing legitimate review and verification tasks online, the whole campaign is quietly some of the best news you have had in years.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Here is the uncomfortable truth of the internet economy: reviews are its money. Shoppers trust them like currency, sellers trade in them like capital, and where there is capital there are counterfeiters. An entire illicit industry grew up printing that currency — review brokers who recruit ordinary people to write five-star ratings in exchange for cash or free products. The people caught in the middle were earners: ordinary task-doers offered what looked like easy, harmless money to post a few reviews. It was neither easy nor harmless. And 2026 is the year the hammer started coming down.',
+      },
+      { type: 'heading', text: 'The rule that changed everything' },
+      {
+        type: 'paragraph',
+        text: 'The legal turning point arrived well before Amazon’s 2026 lawsuits. On August 14, 2024, the U.S. Federal Trade Commission finalized its Trade Regulation Rule on the Use of Consumer Reviews and Testimonials, passed on a unanimous 5–0 vote, and it went into effect on October 21, 2024. The rule does not ask nicely. It flatly prohibits fake or false reviews and testimonials — explicitly including AI-generated ones — and bans businesses from buying, procuring, or disseminating reviews they knew or should have known were fake.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The rule goes further than most people realize. It bans paying for reviews conditioned on a particular sentiment — whether positive or negative. It bans reviews and testimonials from company insiders that fail to disclose the relationship. It bans review suppression, company-controlled sites pretending to be independent, and the use of fake social-media influence indicators. And it gives the FTC something it never had before: the power to seek civil penalties of up to $51,744 per violation. Announcing the rule, then-Chair Lina M. Khan put it plainly: “Fake reviews not only waste people’s time and money, but also pollute the marketplace and divert business away from honest competitors.”',
+      },
+      { type: 'heading', text: 'Amazon’s war on the brokers' },
+      {
+        type: 'paragraph',
+        text: 'The platforms did not wait around for the regulator. Amazon now employs more than 12,000 people worldwide dedicated to protecting its stores from fraud and abuse, and its systems blocked hundreds of millions of suspected fake reviews in 2025 alone. Its Counterfeit Crimes Unit has pursued more than 32,000 bad actors through legal action and criminal referrals across 14 countries since 2020, disposed of over 15 million counterfeit products in 2025, and led legal actions that shut down more than 100 websites involved in fake reviews and scams.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The 2026 legal push has been unusually aggressive. Beyond the Seattle suit over BuyAmzReviewsVotes.com and SellersSoft.com — which followed two related actions the previous year, including a King County Superior Court order transferring control of dozens of domains used to market five-star reviews and an action against SkitSolutionBD.com — Amazon filed its first-ever criminal complaint in Europe (in Italy) and its first civil lawsuit in Europe (in Spain, against a broker called Agencia Reviews that allegedly operated through Telegram), targeting more than 11,000 websites and social media groups accused of orchestrating fake reviews in exchange for money or free products. Separately, it has sued the administrators of more than 10,000 Facebook groups that recruited members to post incentivized reviews — one group, “Amazon Product Review,” had over 43,000 members.',
+      },
+      { type: 'heading', text: 'Why this is good news if you earn online' },
+      {
+        type: 'paragraph',
+        text: 'Read the direction of travel: the counterfeit side of the market is being squeezed by lawsuits, fines, and detection systems all at once. That matters to legitimate earners for a simple reason. Every fake review that gets filtered out makes the remaining real ones more valuable. Verification — proof that a genuine person tried a genuine product and gave a genuine opinion — is becoming the scarce resource. AI can generate a thousand convincing reviews in a minute, which is precisely why nobody trusts them anymore. A verified human opinion is the one thing AI cannot manufacture at zero cost, and every legal filing this year makes that scarcity sharper.',
+      },
+      {
+        type: 'paragraph',
+        text: 'There is a second, practical effect. Task and review marketplaces that verify their earners — checking that submissions are real, escrowing payment until work is approved, penalizing fraud — are the ones aligned with where the law is going. Platforms built on unverified, anyone-can-post-anything ratings are the ones the FTC rule and Amazon’s lawsuits are aimed at. Earners who build their reputations on verified platforms are building equity in the compliant economy; earners chasing quick fake-review gigs are building on ground that is being demolished.',
+      },
+      { type: 'heading', text: 'The offers you should never touch' },
+      {
+        type: 'paragraph',
+        text: 'The fake-review brokers still recruit, mostly through social media and encrypted messaging groups, and the pitches are designed to sound harmless. The payment is usually real money or free products, and the amounts can be tempting. But the cost is real too: participating can get your marketplace accounts banned, your platform earnings frozen, and in the current legal climate it can put you in the blast radius of a federal trade rule that carries five-figure penalties per violation. A five-star review that pays $10 is not a side hustle. It is a liability with a sticker on it.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Payment tied to sentiment: “$15 for a five-star review” is the textbook case the FTC rule targets. Honest tasks pay for genuine feedback, not guaranteed praise.',
+          'Refund-after-review schemes: you buy the product, post a glowing review, get fully reimbursed. This is the exact pattern in Amazon’s 2026 lawsuits.',
+          'Requests for “verified purchase” manipulation: any offer that asks you to simulate a genuine purchase or manufacture purchase history.',
+          'Helpful-vote bundles and Q&A planting: “mark 50 reviews as helpful” or “post these questions and answers” are review-manipulation tasks, not real work.',
+          'Recruitment through Telegram or Facebook groups: legitimate marketplaces hire through their own platform with escrow. Brokers recruit in the shadows because the work cannot survive daylight.',
+          'Review work outside any platform: if there is no escrow, no dispute process, and no paper trail, there is also no protection when the operation gets shut down.',
+        ],
+      },
+      { type: 'heading', text: 'How to make trust pay instead' },
+      {
+        type: 'paragraph',
+        text: 'The alternative is not less work — it is better work, and it pays more over time. Verified review tasks on legitimate marketplaces look different from broker gigs: the payment is escrowed before you start, the task asks for your honest assessment rather than a fixed sentiment, and the platform checks your work instead of just counting it. The habits that get you picked for this work are the same habits the crackdown rewards: specificity, honesty, and consistency.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Write specific, checkable detail: what you tried, what worked, what did not. Vague five-star fluff reads like what it is — bots do that now.',
+          'Keep your opinions honestly mixed: platforms that verify can tell a 100% positive record from a real one. A negative review that is fair builds more trust than ten empty praises.',
+          'Disclose any relationship: if a task came through a marketplace that compensated you, say so. The FTC rule makes insider disclosure a legal requirement, not just good manners.',
+          'Guard your completion record: on verified platforms, a clean history of honest submissions unlocks better tasks and better-paying requesters.',
+          'Build domain expertise: a reviewer with real experience in fitness, skincare, or home audio is worth more than a generalist who will review anything — specialization is where rates climb.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'One logistics-firm example from the AI world is instructive here: 50,000 recorded traces of experts solving real problems cut human intervention for mid-level disruptions by 30%. Real human behavior, captured honestly, is the raw material everything else is built from. Reviews are the consumer-facing version of the same thing. The internet ran on trust for a decade and let counterfeiters devalue it; the bill is now coming due, and the people holding genuine currency — verified, honest, human feedback — are the ones about to get richer.',
+      },
+      {
+        type: 'quote',
+        text: 'Fake reviews not only waste people’s time and money, but also pollute the marketplace and divert business away from honest competitors.',
+        cite: 'Then-FTC Chair Lina M. Khan, announcing the fake-review rule, August 2024',
+      },
+      {
+        type: 'paragraph',
+        text: 'The crackdown will not end fakes overnight — the brokers will regroup, move platforms, rebrand. But the trajectory is unmistakable: regulators with fining power, platforms with detection armies, and courts willing to hand over domains and impose criminal penalties. For earners, the message is simple. Do not sell your credibility for $10. Rent it, honestly and verifiably, for a career.',
+      },
+    ],
+    sources: [
+      {
+        label: 'FTC issues final rule on fake reviews and testimonials (Alston & Bird, Oct 2024)',
+        url: 'https://www.alston.com/en/insights/publications/2024/10/ftc-issues-final-rule-on-fake-reviews-testimonials',
+      },
+      {
+        label: 'FTC final rule: fake or false reviews, buying reviews, insider disclosures (Lexology)',
+        url: 'https://www.lexology.com/library/detail.aspx?g=832401f1-0de5-4ff9-b0f4-6a42707546b1',
+      },
+      {
+        label: 'Amazon sues review-selling websites, alleging fake online reviews (ABA Journal, Feb 2026)',
+        url: 'https://www.abajournal.com/news/article/amazon-sues-review-selling-websites-alleging-fake-online-reviews',
+      },
+      {
+        label: 'Amazon ramps up fight: first criminal filing in Italy, first civil suit in Spain (Retail TouchPoints)',
+        url: 'https://www.retailtouchpoints.com/topics/inventory-merchandising/amazon-ramps-up-fight-against-fake-reviews-with-its-first-criminal-and-civil-filings-in-europe/28',
+      },
+      {
+        label: 'Amazon files lawsuit against Facebook groups soliciting fake reviews (Marketing-Interactive)',
+        url: 'https://www.marketing-interactive.com/amazon-files-lawsuit-against-facebook-groups-soliciting-fake-reviews',
+      },
+      {
+        label: 'Amazon trust report: AI blocking fake reviews, 100+ sites shut down (CIOL)',
+        url: 'https://www.ciol.com/news/amazon-trustworthy-shopping-report-ai-counterfeit-fake-reviews-crackdown-11754010',
+      },
+    ],
+  },
 ];
 
 export const getArticle = (slug: string): Article | undefined =>
