@@ -566,6 +566,89 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: 'great-sorting-ai-gig-economy-2026',
+    title: 'The Great Sorting: AI Is Killing the Cheap Gig — and Paying More for the Good Ones',
+    dek: 'Fiverr lost 1.4 million buyers while the buyers who stayed spend more. Upwork’s contracts under $500 are drying up. The platforms finally said it out loud: the commodity gig is being absorbed by AI — and judgment, verification, and proof are where the money moved.',
+    metaDescription:
+      'Fiverr’s CEO said “AI is automating simple tasks” as buyers fell 22% year on year and Upwork’s sub-$500 contracts dried up. What the gig economy’s great sorting means for online earners — and how to land on the side that pays.',
+    category: 'Gig Economy',
+    author: 'eBizEarn Insights',
+    authorRole: 'Editorial Team',
+    publishedAt: '2026-09-28',
+    readMinutes: 6,
+    coverImage: '/images/blog/great-sorting-gig-economy-2026.webp',
+    coverAlt: 'A freelancer at a desk bathed in warm light, generic faded task icons dissolving on one side while vivid high-value creative work glows on the other',
+    blocks: [
+      {
+        type: 'lead',
+        text: 'On Fiverr’s second-quarter earnings call this year, CEO Micha Kaufman said the quiet part out loud. Demand for simple freelance work was falling, he told investors, and the reason was not the economy. “Put simply: AI is automating simple tasks.” A few months earlier, Upwork had said the same thing in blunter accounting terms: the platform was seeing degraded client activity on contracts of $500 and below. The gig economy’s cheapest rung has not been outcompeted. It has been absorbed — by the tools clients used to buy the work in the first place.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Look at what happened to the buyers. Fiverr had 4.1 million active buyers in 2023. By the end of 2025 that number was 3.1 million; by the second quarter of 2026 it was 2.7 million, down 22% year on year — even as the buyers who stayed started spending more: $278 a year on average in 2023, $368 by mid-2026. Marketplace revenue still fell 15.5% in the quarter. Upwork shows the same shape: active clients down from 832,000 in 2024 to 763,000 by the second quarter of 2026, while spending per remaining client climbed from $4,815 to $5,230. Fewer buyers, buying more expensive work. The middle hasn’t been hollowed out — the bottom has been deleted.',
+      },
+      { type: 'heading', text: 'Why the cheapest work went first' },
+      {
+        type: 'paragraph',
+        text: 'The Financial Times pointed at the mechanism this month: by breaking jobs into remote, well-defined tasks and stripping them of institutional knowledge and personal relationships, gig platforms made that work perfectly packaged for automation. A $5 logo or a 500-word blog post is exactly the kind of unit an AI model can reproduce on demand. The irony is sharp. The platforms standardized tasks to make them easy to buy, and that standardization is what made them easy to replace.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Investors agree with the diagnosis. Fiverr and Upwork’s share prices have dropped roughly 61% and 47% respectively over the past year. That is not a blip in one vertical. It is the market repricing what a marketplace of commoditized tasks is worth when the commodity has a machine equivalent.',
+      },
+      { type: 'heading', text: 'It’s not just white-collar freelancers' },
+      {
+        type: 'paragraph',
+        text: 'Drivers are watching the same movie from the other seat. Self-driving cars are on the road in the United States and China, and Uber has started lobbying for a slower robotaxi rollout — not from generosity toward drivers, but because a driverless network would undercut its own model. Even so, the company has acknowledged the direction of travel: fewer human-driven trips over the long run. One study from the rideshare assistant app Gridwise found pay per trip in US cities with self-driving cars declined between July 2024 and July 2025 relative to the nationwide average. In China, where food-delivery and rideshare work became the labor market’s shock absorber — the workforce growing by 10 million in two years to reach 53 million in 2025 — the head of one of the country’s biggest ecommerce groups has warned its 700,000 delivery workers will be replaced by robots “sooner or later.”',
+      },
+      { type: 'heading', text: 'What the survivors look like' },
+      {
+        type: 'paragraph',
+        text: 'Here is the part the doom narrative misses: the sorting has winners. PYMNTS Intelligence’s September 2026 Wage to Wallet Index, produced with WorkWhile, surveyed 2,098 US consumers — including 1,604 working adults — and found nearly 37% had earned money through platforms in the past year. Among people who needed digital or creative work, 57.5% used AI to do it themselves, while only 19.1% paid or hired someone. But the same report carries the other half of the story: some buyers now use AI to complete work themselves, and others bring that AI-produced work to a freelancer who can fix it, finish it, or make it useful.',
+      },
+      {
+        type: 'quote',
+        text: 'AI can produce a first draft. Someone still has to make the finished work worth paying for.',
+        cite: 'PYMNTS Intelligence / WorkWhile, Wage to Wallet Index, September 2026',
+      },
+      {
+        type: 'paragraph',
+        text: 'That “someone” is increasingly a specialist. Analysis of Fiverr’s Business Trends Index notes surging buyer searches for skills that sit on top of AI rather than under it — queries for Claude Code up 938% year on year, AI video and animation up 278%. Meanwhile a new class of platforms has appeared that pays for judgment itself: Mercor, for example, pays lawyers, journalists and bankers to help fine-tune AI models. The work that survives is the work machines still get wrong — and someone has to keep teaching them.',
+      },
+      { type: 'heading', text: 'How to land on the right side of the sort' },
+      {
+        type: 'paragraph',
+        text: 'The practical playbook writes itself from the data. First, move up the judgment ladder: sell the fixing, the finishing, the verifying — the parts an AI draft cannot certify on its own. Second, build proof a machine cannot fake: verified completions, client ratings, a portfolio with real outcomes. Nearly a third of digital freelancers in the PYMNTS survey said a platform had already introduced AI tools that can do their kind of work, so competing on “I can do it too” is a losing bid. Third, choose platforms that verify and escrow. When buyers pay more per transaction, they become pickier about trust — which is exactly when verified reputation and protected payment stop being nice-to-haves.',
+      },
+      {
+        type: 'paragraph',
+        text: 'And the pay data says the remaining work is worth it. A September midyear earnings review found gig-worker average hourly pay up 9.8% year over year to $18.58, with rideshare and food delivery logging their strongest recovery in three years. The gig economy is not shrinking into nothing. It is shrinking into something smaller, pickier, and better paid.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The World Bank estimated in 2023 that between 154 and 435 million people did online gig work worldwide. Not all of them will ride out the sorting. But the message for earners is not that the gigs are gone. The $5 gig is gone, and it is not coming back. The $500 one is still hiring — for judgment, for proof, for humans who can stand behind their work. Build for that buyer, and the platform economy’s great sorting works in your favor.',
+      },
+    ],
+    sources: [
+      {
+        label: 'AI automation is starting to carve up the gig economy (Financial Times via BizNews, Sep 2026)',
+        url: 'https://www.biznews.com/tech/ai-automation-carve-up-gig-economy',
+      },
+      {
+        label: 'AI and Gig Economy: Fiverr, Upwork, and the Great Freelance Sorting (InAIWeTrust, Sep 2026)',
+        url: 'https://inaiwetrust.com/p/ai-and-gig-economy-fiverr-upwork-and-the-great-frellance-sorting',
+      },
+      {
+        label: 'Digital Freelancers Find More Work and New Pressure on Pay (PYMNTS Intelligence/WorkWhile Wage to Wallet Index, Sep 2026)',
+        url: 'https://www.pymnts.com/consumer-insights/2026/digital-freelancers-find-more-work-and-new-pressure-on-pay/',
+      },
+      {
+        label: 'Gig Worker Pay Is Up 9.8% in 2026. But the Pump Is Taking Its Cut. (WorkSolo, Sep 2026)',
+        url: 'https://www.worksolo.com/blog/gig-worker-pay-is-up-9-8-in-2026-but-the-pump-is-taking-its-cut',
+      },
+    ],
+  },
 ];
 
 export const getArticle = (slug: string): Article | undefined =>
